@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="418.0" prefWidth="585.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.startcontroller">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="540.0">
+         <children>
+            <ImageView fx:id="pic1" fitHeight="438.0" fitWidth="616.0" layoutX="-11.0" layoutY="-31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@download.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="151.0" layoutY="14.0" prefHeight="51.0" prefWidth="260.0" text="MAP SELECTION">
+               <font>
+                  <Font name="Consolas Bold" size="36.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7473683953285217" green="0.672631561756134" blue="0.672631561756134" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Button blendMode="ADD" layoutX="91.0" layoutY="289.0" mnemonicParsing="false" onMouseClicked="#MUSICCLASS" style="-fx-background-color: #141010;" text="MUSIC CLASS">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7157894968986511" green="0.6283040642738342" blue="0.6283040642738342" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button blendMode="ADD" layoutX="315.0" layoutY="289.0" mnemonicParsing="false" onMouseClicked="#FANIGHADIM" style="-fx-background-color: #141010;" text="FANI GHADIM UNDERGROUND" textFill="#e4d0d0" />
+            <Label layoutX="181.0" layoutY="65.0" prefHeight="26.0" prefWidth="200.0" text="PLEASE SELECT YOUR FAVORITE MAP" textFill="#68e714" />
+            <ImageView fx:id="PIC2" fitHeight="150.0" fitWidth="200.0" layoutX="307.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@R.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic2" fitHeight="150.0" fitWidth="200.0" layoutX="36.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@KJGKJGF.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="pic11" fitHeight="438.0" fitWidth="616.0" layoutX="-1.0" layoutY="-21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@download.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="161.0" layoutY="24.0" prefHeight="51.0" prefWidth="260.0" text="MAP SELECTION">
+         <font>
+            <Font name="Consolas Bold" size="36.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7473683953285217" green="0.672631561756134" blue="0.672631561756134" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button blendMode="ADD" layoutX="101.0" layoutY="299.0" mnemonicParsing="false" onMouseClicked="#MUSICCLASS" style="-fx-background-color: #141010;" text="MUSIC CLASS">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7157894968986511" green="0.6283040642738342" blue="0.6283040642738342" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button blendMode="ADD" layoutX="359.0" layoutY="299.0" mnemonicParsing="false" onMouseClicked="#FANIGHADIM" style="-fx-background-color: #141010;" text="FANI GHADIM UNDERGROUND" textFill="#e4d0d0" />
+      <Label layoutX="191.0" layoutY="75.0" prefHeight="26.0" prefWidth="200.0" text="PLEASE SELECT YOUR FAVORITE MAP" textFill="#68e714" />
+      <ImageView fx:id="PIC21" fitHeight="150.0" fitWidth="300.0" layoutX="351.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@R.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pic21" fitHeight="193.0" fitWidth="260.0" layoutX="23.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@R.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
