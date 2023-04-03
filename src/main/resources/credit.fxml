@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.credit">
+   <children>
+      <ImageView fitHeight="446.0" fitWidth="658.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@download.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="59.0" layoutY="65.0" prefHeight="64.0" prefWidth="182.0" text="PROGRAMMER">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7052631378173828" green="0.20113059878349304" blue="0.20113059878349304" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="426.0" layoutY="129.0" text="BEHNOOD OBOODIYYAT">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7894737124443054" green="0.2222222238779068" blue="0.2222222238779068" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ImageView fitHeight="86.0" fitWidth="108.0" layoutX="439.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo_2022-02-08_22-41-51.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="145.0" fitWidth="284.0" layoutX="421.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo_2022-03-27_08-19-58.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="439.0" layoutY="327.0" text="DR.RAMEZANI">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7157894968986511" green="0.172319695353508" blue="0.172319695353508" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="266.0" text="INSTRUCTOR">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7368420958518982" green="0.19103313982486725" blue="0.19103313982486725" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="20.0" text="JUNE 2022">
+         <font>
+            <Font name="Century" size="19.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7368420958518982" green="0.19103313982486725" blue="0.19103313982486725" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="265.0" layoutY="365.0" prefHeight="46.0" prefWidth="72.0" text="CE.UI" textFill="#57ab5a">
+         <font>
+            <Font name="Corbel" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

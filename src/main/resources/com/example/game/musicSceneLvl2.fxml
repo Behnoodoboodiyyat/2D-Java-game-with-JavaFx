@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.MusicSceneLvl2">
+   <children>
+      <AnchorPane layoutX="5.0" layoutY="5.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="578.0" fitWidth="669.0" layoutX="-69.0" layoutY="-45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../OIP%20(1).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="nima" fitHeight="79.0" fitWidth="73.0" layoutX="43.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../InShot_20220627_215719598%20(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic1" fitHeight="82.0" fitWidth="53.0" layoutX="547.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Judo-Karate-Male-Fighter-PNG-File.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic2" fitHeight="79.0" fitWidth="98.0" layoutX="495.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Judo-Karate-Male-Fighter-PNG-Image.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pic3" fitHeight="79.0" fitWidth="53.0" layoutX="454.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../R%20(3).png" />
+               </image>
+            </ImageView>
+            <Button layoutX="53.0" layoutY="38.0" mnemonicParsing="false" onMouseClicked="#SPECIALMOVE" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: #141010; -fx-background-radius: 100PX;" text="SPECIAL MOVE">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.8315789699554443" green="0.32955166697502136" blue="0.32955166697502136" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button layoutX="53.0" layoutY="70.0" mnemonicParsing="false" onMouseClicked="#LEFT" style="-fx-background-color: #141010; -fx-background-radius: 100PX;" text="&lt;---">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7157894968986511" green="0.06627680361270905" blue="0.06627680361270905" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button layoutX="111.0" layoutY="70.0" mnemonicParsing="false" onMouseClicked="#RIGHT" style="-fx-background-color: #141010; -fx-background-radius: 100PX;" text="---&gt;">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.75789475440979" green="0.0645614042878151" blue="0.0645614042878151" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button layoutX="66.0" layoutY="103.0" mnemonicParsing="false" onMouseClicked="#FITALITY" style="-fx-background-color: #141010; -fx-background-radius: 100PX;" text="FITALITY">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.8105263113975525" green="0.18612085282802582" blue="0.18612085282802582" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="UP" layoutX="163.0" layoutY="58.0" mnemonicParsing="false" onMouseClicked="#UP" style="-fx-background-color: #141010; -fx-background-radius: 100PX;" text="UP">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="0.9222221970558167" blue="0.9222221970558167" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="DOWN" layoutX="153.0" layoutY="91.0" mnemonicParsing="false" onMouseClicked="#DOWN" style="-fx-background-color: #141010; -fx-background-radius: 100PX;" text="DOWN">
+               <font>
+                  <Font size="10.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.7684210538864136" green="0.6090448498725891" blue="0.6090448498725891" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <ImageView fx:id="Congrats" fitHeight="150.0" fitWidth="200.0" layoutX="254.0" layoutY="-135.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../gameover.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="laptop" fitHeight="53.0" fitWidth="53.0" layoutX="124.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../R%20(4).png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="con" fitHeight="150.0" fitWidth="200.0" layoutX="401.0" layoutY="-142.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../R%20(2).png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="laptop1" fitHeight="53.0" fitWidth="53.0" layoutX="66.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../R%20(4).png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="laptop2" fitHeight="53.0" fitWidth="53.0" layoutX="3.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../R%20(4).png" />
+               </image>
+            </ImageView>
+            <Button fx:id="FINISH" layoutX="535.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#FINISH" style="-fx-background-color: #141010;" text="FINISH" textFill="#3adf15" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

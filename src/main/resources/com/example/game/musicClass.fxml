@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="398.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.musicclass">
+   <children>
+      <ImageView fitHeight="472.0" fitWidth="709.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../R.png" />
+         </image></ImageView>
+      <Label layoutX="205.0" layoutY="34.0" prefHeight="53.0" prefWidth="298.0" style="-fx-background-color: #bae8e8;" text="SELECT YOUR HERO" textFill="#4620d6">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="219.0" fitWidth="141.0" layoutX="115.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../InShot_20220627_213139313.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="208.0" fitWidth="156.0" layoutX="418.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../InShot_20220627_215719598%20(1).png" />
+         </image>
+      </ImageView>
+      <Button layoutX="141.0" layoutY="301.0" mnemonicParsing="false" onMouseClicked="#RAMEZANI" prefHeight="39.0" prefWidth="126.0" text="DR.RAMEZANI" textFill="#c71414" />
+      <Label layoutX="456.0" layoutY="306.0" onMouseClicked="#NIMAJAN" prefHeight="39.0" prefWidth="91.0" style="-fx-background-color: #fcfefe;" text="NIMICO" textFill="#b91313">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="418.0" prefWidth="585.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.mapselection">
+   <children>
+      <ImageView fx:id="pic1" fitHeight="437.0" fitWidth="599.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../download.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="PIC2" fitHeight="150.0" fitWidth="200.0" layoutX="356.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../R.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pic" fitHeight="150.0" fitWidth="235.0" layoutX="53.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../R.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="152.0" layoutY="28.0" text="MAP SELECTION">
+         <font>
+            <Font size="39.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.2693333327770233" green="0.800000011920929" blue="0.21037037670612335" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button layoutX="364.0" layoutY="321.0" mnemonicParsing="false" onMouseClicked="#FANIGHADIM" text="FANI GHADIM UNDERGROUNF" />
+      <Button layoutX="126.0" layoutY="321.0" mnemonicParsing="false" onMouseClicked="#MUSICCLASS" text="MUSIC CLASS" />
+      <Label layoutX="227.0" layoutY="84.0" text="SELECT A MAP" textFill="#b0cc11">
+         <font>
+            <Font name="Cambria" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="main" layoutX="27.0" layoutY="381.0" mnemonicParsing="false" onMouseClicked="#MAIN" style="-fx-background-color: #000000; -fx-background-radius: 100px;" text="BACK TO MAIN">
+         <font>
+            <Font size="9.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.11915269494056702" green="0.09676413238048553" blue="0.7684210538864136" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</AnchorPane>
